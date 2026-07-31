@@ -1,6 +1,7 @@
 # makbot
 
 A Telegram bot for controlling traffic light signals using GPIO pins on a Raspberry Pi.
+@ma_kbot_bot
 
 ## Features
 
