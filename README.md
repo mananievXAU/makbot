@@ -1,4 +1,4 @@
-# kbot
+# makbot
 
 A Telegram bot for controlling traffic light signals using GPIO pins on a Raspberry Pi.
 
@@ -27,8 +27,8 @@ A Telegram bot for controlling traffic light signals using GPIO pins on a Raspbe
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/kbot.git
-cd kbot
+git clone https://github.com/yourusername/makbot.git
+cd makbot
 ```
 
 2. Set up your Telegram Bot Token:
@@ -83,7 +83,7 @@ ${REGISTRY}/${APP}:${VERSION}-${TARGETARCH}
 
 Start the bot:
 ```bash
-./kbot start
+./makbot start
 ```
 
 ### Available Commands
@@ -107,7 +107,7 @@ The project uses Cobra for CLI command management and go-rpio for GPIO control.
 ### Project Structure
 
 - `cmd/` - Contains the main command implementations
-  - `kbot.go` - Main bot implementation and traffic light control
+  - `makbot.go` - Main bot implementation and traffic light control
   - `root.go` - Root command configuration
   - `version.go` - Version command implementation
 
