@@ -4,7 +4,6 @@ go 1.22
 
 require (
 	github.com/spf13/cobra v1.6.1
-	github.com/stianeikeland/go-rpio v4.2.0+incompatible
 	gopkg.in/telebot.v4 v4.0.0-beta.4
 )
 
